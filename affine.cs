@@ -106,31 +106,6 @@ public static class Affine
     }
 
 
-    /*private static bool checkRelativePrime(int a, int b)
-    {
-        // Need to make sure a and b are relatvely prime
-        while (a > 0)
-        {
-            if (a >= b && a > 0)
-            {
-                a = a - b;
-                if (a == 1)
-                {
-                    return true;
-                }
-            }
-            else if (b >= a && b > 0)
-            {
-                b = b - a;
-                if (b == 1)
-                {
-                    return true;
-                }
-            }
-        }
-        return false;
-    }*/
-
     private static List<object> establishVariables()
     {
         // estabishes the hash maps that provide integer <=> character mappings
